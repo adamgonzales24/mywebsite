@@ -1,9 +1,10 @@
 * {
   font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 .me {
@@ -31,4 +32,26 @@ body {
 
 .buttonLinks:hover {
   background-color: gray;
+}
+
+.pic_1 {
+  border: 1px solid white;
+  border-radius: 600px;
+  width: auto;
+  height: 30vh;
+}
+
+@media only screen and (max-height: 600px) {
+  .backToTop {
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+  }
+  .backToTop:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+  }
 }
