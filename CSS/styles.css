@@ -2,10 +2,12 @@ body {
   background-color: #fbf7f0;
 }
 
+/* Links */
 a {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
   color: blue;
 }
